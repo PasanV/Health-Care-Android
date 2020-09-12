@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".managedoctors.Adddoctors"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:textStyle="bold"
+            android:text="Register Consultan"
+            android:textColor="#D50000"
+            android:textSize="20dp">
+
+        </TextView>
+        <EditText
+            android:id="@+id/txtid"
+            android:layout_width="220dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/text_box_custom"
+            android:cursorVisible="true"
+            android:drawableLeft="@drawable/ic_action_id_black"
+            android:ems="10"
+            android:hint="Id"
+            android:inputType="textPersonName"
+            android:textColor="#0C0B0B"
+            android:textColorHighlight="#FFFF"
+            />
+        <EditText
+            android:id="@+id/txtname"
+            android:layout_width="220dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/text_box_custom"
+            android:cursorVisible="true"
+            android:drawableLeft="@drawable/ic_action_name_black"
+            android:ems="10"
+            android:hint="Name"
+            android:inputType="textPersonName"
+            android:textColor="#0C0B0B"
+            android:textColorHighlight="#FFFF"
+            />
+        <EditText
+            android:id="@+id/txtemail"
+            android:layout_width="220dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/text_box_custom"
+            android:cursorVisible="true"
+            android:drawableLeft="@drawable/ic_action_email_black"
+            android:ems="10"
+            android:hint="E_mail"
+            android:inputType="textEmailAddress"
+            android:textColor="#0C0B0B"
+            android:textColorHighlight="#FFFF"
+            />
+        <EditText
+            android:id="@+id/txtcontact"
+            android:layout_width="220dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/text_box_custom"
+            android:cursorVisible="true"
+            android:drawableLeft="@drawable/ic_action_phone_black"
+            android:ems="10"
+            android:hint="Contact Number"
+            android:inputType="number"
+            android:textColor="#0C0B0B"
+            android:textColorHighlight="#FFFF"
+            />
+
+        <EditText
+            android:id="@+id/txtpass"
+            android:layout_width="220dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/text_box_custom"
+            android:cursorVisible="true"
+            android:drawableLeft="@drawable/ic_action_history_black"
+            android:editable="false"
+            android:ems="10"
+            android:hint="Specilized area"
+            android:inputType="text"
+            android:textColor="#0C0B0B"
+            android:textColorHighlight="#FFFF" />
+
+        <Button
+            android:id="@+id/btn_registerdoc"
+            android:layout_width="1in"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:background="@drawable/btn_custom"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="20dp"
+            />
+
+    </LinearLayout>
+
+</FrameLayout>

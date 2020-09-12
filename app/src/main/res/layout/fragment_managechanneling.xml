@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".chanelling_details.channeling_frag">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:textStyle="bold"
+            android:text="Add Chaneling"
+            android:textColor="#D50000"
+            android:textSize="20dp">
+
+        </TextView>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Spinner
+                android:id="@+id/spin_name"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:hint="Id"
+                android:spinnerMode="dropdown"
+                android:textColor="#0C0B0B"
+                android:textColorHighlight="#FFFF"
+                android:layout_marginBottom="20dp"
+                />
+            <EditText
+                android:id="@+id/txtdoc_name"
+                android:layout_width="190dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/text_box_custom"
+                android:cursorVisible="true"
+                android:drawableLeft="@drawable/ic_action_id_black"
+                android:ems="10"
+                android:hint="Doctor's Name"
+                android:inputType="textPersonName"
+                android:textColor="#0C0B0B"
+                android:textColorHighlight="#FFFF"
+                />
+
+        </LinearLayout>
+        <EditText
+            android:id="@+id/txtdoc_contact"
+            android:layout_width="220dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/text_box_custom"
+            android:cursorVisible="true"
+            android:drawableLeft="@drawable/ic_action_phone_black"
+            android:ems="10"
+            android:hint="Contact Number"
+            android:inputType="number"
+            android:textColor="#0C0B0B"
+            android:textColorHighlight="#FFFF"
+            />
+        <EditText
+            android:id="@+id/txtdoc_email"
+            android:layout_width="220dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/text_box_custom"
+            android:cursorVisible="true"
+            android:drawableLeft="@drawable/ic_action_email_black"
+            android:ems="10"
+            android:hint="E_mail"
+            android:inputType="textEmailAddress"
+            android:textColor="#0C0B0B"
+            android:textColorHighlight="#FFFF"
+            />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Spinner
+            android:id="@+id/spin_loc"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:hint="Id"
+            android:spinnerMode="dropdown"
+            android:textColor="#0C0B0B"
+            android:textColorHighlight="#FFFF"
+            android:layout_marginBottom="20dp"/>
+
+        <EditText
+            android:id="@+id/txtclin_loc"
+            android:layout_width="190dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/text_box_custom"
+            android:cursorVisible="true"
+            android:drawableLeft="@drawable/ic_action_location_black"
+            android:ems="10"
+            android:hint="Clinic"
+            android:inputType="number"
+            android:textColor="#0C0B0B"
+            android:textColorHighlight="#FFFF"
+            />
+    </LinearLayout>
+
+        <EditText
+            android:id="@+id/txtloca_name"
+            android:layout_width="220dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/text_box_custom"
+            android:cursorVisible="true"
+            android:drawableLeft="@drawable/ic_action_home_black"
+            android:ems="10"
+            android:hint="Location Name"
+            android:inputType="text"
+            android:textColor="#0C0B0B"
+            android:textColorHighlight="#FFFF"
+            />
+
+        <EditText
+            android:id="@+id/txt_date"
+            android:layout_width="220dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/text_box_custom"
+            android:cursorVisible="true"
+            android:drawableLeft="@drawable/ic_action_date_black"
+            android:ems="10"
+            android:hint="Date"
+            android:inputType="date"
+            android:textColor="#0C0B0B"
+            android:textColorHighlight="#FFFF"
+            />
+        <EditText
+            android:id="@+id/txt_time"
+            android:layout_width="220dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/text_box_custom"
+            android:cursorVisible="true"
+            android:drawableLeft="@drawable/ic_action_time_black"
+            android:ems="10"
+            android:hint="Time"
+            android:inputType="time"
+            android:textColor="#0C0B0B"
+            android:textColorHighlight="#FFFF"
+            />
+        <Button
+            android:id="@+id/btn_addchan"
+            android:layout_width="1in"
+            android:layout_height="wrap_content"
+            android:text="Add Chanelling"
+            android:background="@drawable/btn_custom"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="20dp"
+            />
+
+
+    </LinearLayout>
+
+</FrameLayout>
